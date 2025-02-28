@@ -1,6 +1,5 @@
 def prnt_list(lst):
-    i = lst[0]
-    for i in lst:
-        print([i])
+    for item in lst:
+        print(item)
 
 prnt_list(["squirtle", "gengar", "charizard", "pikachu"])
